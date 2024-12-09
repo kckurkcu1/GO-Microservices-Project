@@ -1,8 +1,9 @@
-schema: schema.graphql
+schema:
+  - Graphql/schema.graphql
 
 models:
   Account:
-    model: github.com/kckurkcu1/go-microservices-project/models.Account
+    model: github.com/kckurkcu1/GO-Microservices-Project/Graphql.Account
     fields:
       orders:
         resolver: true
