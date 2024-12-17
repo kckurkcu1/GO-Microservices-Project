@@ -1,6 +1,8 @@
 package main
 
-import "github.com/99designs/gqlgen/graphql"
+import (
+	"github.com/99designs/gqlgen/graphql"
+)
 
 type Server struct {
 	accountClient *account.Client

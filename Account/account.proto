@@ -1,5 +1,4 @@
 syntax = "proto3";
-
 package pb;
 
 message Account {
@@ -33,10 +32,10 @@ message GetAccountsResponse {
 }
 
 service AccountService {
-  rpc PostAccount (PostAccountRequest) returns (GetAccountResponse){
+  rpc PostAccount (PostAccountRequest) returns (PostAccountResponse) {
   }
-  rpc GetAccount (GetAccountRequest) returns (GetAccountResponse){
+  rpc GetAccount (GetAccountRequest) returns (GetAccountResponse) {
   }
-  rpc GetAccounts (GetAccountsRequest) returns (GetAccountsResponse){
+  rpc GetAccounts (GetAccountsRequest) returns (GetAccountsResponse) {
   }
 }
