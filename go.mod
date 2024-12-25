@@ -10,6 +10,7 @@ require (
 	github.com/segmentio/ksuid v1.0.4
 	github.com/tinrab/retry v1.0.0
 	github.com/vektah/gqlparser/v2 v2.5.20
+	golang.org/x/net v0.32.0
 	google.golang.org/grpc v1.69.0
 	gopkg.in/olivere/elastic.v5 v5.0.86
 )
@@ -24,7 +25,6 @@ require (
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sosodev/duration v1.3.1 // indirect
-	golang.org/x/net v0.32.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241216192217-9240e9c98484 // indirect
